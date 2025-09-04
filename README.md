@@ -2,7 +2,13 @@
 
 Removes specified HTML attributes (e.g., `data-testid`) from the final Next.js build.
 
+> **Limitations:** Some attributes that appear after minification or in already generated JavaScript/JSON files (e.g., in .next/server chunks) may remain, because minifiers replace values with variables. To reliably remove all attributes, they must be removed in the source code stage.
+
+---
+
 Удаляет указанные HTML-атрибуты (например, `data-testid`) из финальной сборки Next.js.
+
+> **Ограничения:** Некоторые атрибуты, которые появляются после минификации или в уже сгенерированных файлах JavaScript/JSON (например в .next/server чанках), могут остаться, потому что минификаторы заменяют значения на переменные. Чтобы гарантированно удалить все атрибуты, их нужно удалять на этапе исходного кода.
 
 ---
 
