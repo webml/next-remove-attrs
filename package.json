@@ -1,0 +1,24 @@
+{
+  "name": "next-remove-attrs",
+  "version": "1.0.0",
+  "description": "Удаляет указанные атрибуты (например, data-testid) из .next сборки",
+  "main": "index.js",
+  "bin": {
+    "next-remove-attrs": "./bin/cli.js"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "build",
+    "cleanup",
+    "remove",
+    "attributes",
+    "data-testid"
+  ],
+  "author": "webml",
+  "license": "MIT",
+  "type": "commonjs",
+  "publishConfig": {
+    "access": "public"
+  }
+}
