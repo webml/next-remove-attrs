@@ -11,11 +11,11 @@ Removes specified HTML attributes (e.g., `data-testid`) from the final Next.js b
 ### Install
 
 ```bash
-npm install --save-dev @next/remove-attrs
+npm install --save-dev next-remove-attrs
 # or
-yarn add -D @next/remove-attrs
+yarn add -D next-remove-attrs
 # or
-pnpm add -D @next/remove-attrs
+pnpm add -D next-remove-attrs
 ```
 
 ### Run
@@ -51,11 +51,11 @@ npm run build
 ### Установка
 
 ```bash
-npm install --save-dev @next/remove-attrs
+npm install --save-dev next-remove-attrs
 # или
-yarn add -D @next/remove-attrs
+yarn add -D next-remove-attrs
 # или
-pnpm add -D @next/remove-attrs
+pnpm add -D next-remove-attrs
 ```
 
 ### Запуск
