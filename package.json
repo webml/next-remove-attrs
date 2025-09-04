@@ -16,6 +16,10 @@
     "data-testid"
   ],
   "author": "webml",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webml/next-remove-attrs"
+  },
   "license": "MIT",
   "type": "commonjs",
   "publishConfig": {
